@@ -1,0 +1,78 @@
+HTML Basics (attributes, elements, IDE, mobile first)
+
+### HTML Basics To Cover:
+
+#### 1. Structure:
+  - : Define the document type.
+  - : Root element. 
+  - : Contains metadata.
+    - <title>: Title of the webpage.
+    - meta: Metadata like character set, description, etc.
+  - body: Content of the webpage. 
+
+
+#### 2. Text Formatting:
+  - h1 to h6: Headings (largest to smallest). @done
+  - p: Paragraphs. @done
+  - strong: Bold text. @done
+  - em: Italic text. @done
+  - u: Underlined text. @done
+  - br: Line break. @done
+  - hr: Horizontal line. @done
+
+
+#### 3. Links and Images:
+  - a: Anchor tag for links. @done
+  - img: Insert images. @done
+
+
+#### 4. Lists:
+  - ul: Unordered list. @done
+    - li: List item. @done
+  - ol: Ordered list. @done
+    - li: List item. @done
+
+
+#### 5. Tables:
+  - table: Create tables. @done
+    - tr: Table row. @done
+    - td: Table data/cell. @done
+    - th: Table header cell. @done
+
+
+#### 6. Forms:
+  - form: Create a form. 
+    - input: Input fields (text, password, email, etc.). 
+    - textarea: Multi-line text input. 
+    - button: Buttons. 
+    - select: Dropdown/select menu. 
+    - option: Options within a select menu. 
+
+
+#### 7. Semantic Elements:
+  - header: Represents introductory content. @done
+  - footer: Represents footer content. @done
+  - nav: Defines a set of navigation links. @done
+  - article: Represents independent, self-contained content. @done
+  - section: Represents a generic section of a document. @done
+  - aside: Defines content aside from the main content. @done
+
+
+#### 8. Comments:
+  - !-- --: Add comments in the HTML code. @done
+
+
+#### 9. Attributes:
+  - id: Unique identifier for an element. @done
+  - class: Assign a class to an element. @done
+  - src: Source attribute for images, scripts, etc. @done
+  - href: Hyperlink reference for a tags. @done
+
+
+#### 10. Document Structure and Validation:
+  - Proper indentation and organization. @done
+  - Validate HTML code using tools like W3C Markup Validation Service. @done
+
+
+#### 11. Doctype and Charset:
+  - Ensure the use of `!DOCTYPE html` and `meta charset="utf-8"` for modern web documents.</title> 

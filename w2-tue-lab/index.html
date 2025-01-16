@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* a rule */
+      /* `header` is the rule's selector */
+      header {
+        background-color: #fcba03;
+        text-align: center;
+      }
+
+      /* a rule */
+      /* `.card` is a class selector */
+      /* this selector is gonna all the three cards */
+      /* `background-color` is a css property */
+      /* `#32a852` is the value of the property */
+      .card {
+        background-color: #32a852;
+        border: 1px solid black;
+      }
+
+      /* a rule */
+      footer {
+        background-color: #eb4034;
+        text-align: center;
+      }
+
+      nav {
+        /* background-color: #4287f5; */
+        background-color: black;
+      }
+
+      a {
+        display: inline-block;
+        padding: 10px;
+        color: whitesmoke;
+        text-decoration: none;
+        text-align: center;
+      }
+
+      a:hover {
+        color: black;
+        background-color: whitesmoke;
+      }
+
+      #theOne {
+        float: right;
+      }
+
+      main {
+        clear: both;
+      }
+
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      #left-column {
+        width: 75%;
+        float: left;
+        padding-right: 10px;
+        box-sizing: border-box;
+      }
+
+      #right-column {
+        width: 25%;
+        float: right;
+      }
+
+      footer {
+        clear: both;
+      }
+
+      #card2 {
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Header</h1>
+    </header>
+    <nav>
+      <a href="#">LINK 1</a>
+      <a href="#">LINK 2</a>
+      <a href="#">LINK 3</a>
+      <a href="#" id="theOne">LINK 4</a>
+    </nav>
+    <main>
+      <div id="left-column">
+        <div class="card">
+          <h2>Title</h2>
+          <h3>Title Description</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit ea
+            magni laboriosam ratione vero voluptatum rem dolore earum, pariatur
+            dolor, enim quia vitae aliquam nesciunt ipsa alias incidunt! Enim,
+            quibusdam?
+          </p>
+        </div>
+        <div class="card" id="card2">
+          <h2>Title</h2>
+          <h3>Title Description</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit ea
+            magni laboriosam ratione vero voluptatum rem dolore earum, pariatur
+            dolor, enim quia vitae aliquam nesciunt ipsa alias incidunt! Enim,
+            quibusdam?
+          </p>
+        </div>
+      </div>
+      <div id="right-column">
+        <div class="card">
+          <h2>Title</h2>
+          <h3>Title Description</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit ea
+            magni laboriosam ratione vero voluptatum rem dolore earum, pariatur
+            dolor, enim quia vitae aliquam nesciunt ipsa alias incidunt! Enim,
+            quibusdam?
+          </p>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <h1>Footer</h1>
+    </footer>
+  </body>
+</html>

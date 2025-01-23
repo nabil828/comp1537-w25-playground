@@ -9,21 +9,21 @@ CSS RESPONSIVE LAYOUTs Using
   - Absolute @done
   - Fixed @done
   - Sticky @done
-- CSS Flexbox
-  - Flex Container
-  - Flex Items
- - Properties for the flex container
-  - Flex Direction
-  - Flex Wrap
-  - Justify Content
-  - Align Items
-  - Align Content
- - Properties for the flex items
-  - Align Self
-  - Flex Grow
-  - Flex Shrink
-  - Flex Basis
-  - Flex Flow
-  - Flex (Shorthand)
-  - Order
+- CSS Flexbox @done
+  - Flex Container @done
+  - Flex Items @done
+ - Properties for the flex container @done
+  - Flex Direction @done
+  - Flex Wrap @done
+  - Justify Content @done
+  - Align Items @done
+  - Align Content @done
+ - Properties for the flex items @done
+  - Align Self @done
+  - Flex Grow @done
+  - Flex Shrink @done
+  - Flex Basis @done
+  - Flex Flow @done
+  - Flex (Shorthand) @done
+  - Order @done
 - Introduction to CSS Frameworks: Tailwind

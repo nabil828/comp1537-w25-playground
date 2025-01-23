@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      main {
+        display: flex;
+      }
+      #left-column {
+        background-color: #fcba03;
+      }
+      #right-column {
+        background-color: #4287f5;
+      }
+
+      section {
+        display: flex;
+        /* flex-direction: row; */
+      }
+
+      @media screen and (max-width: 768px) {
+        main {
+          flex-direction: column;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>Header</header>
+    <main>
+      <div id="left-column">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla rerum
+        quibusdam dolorem distinctio harum beatae libero laboriosam vitae eaque
+        sequi!
+        <section>
+          <div style="background-color: #32a852">
+            Lorem ipsum dolor sit amet.
+          </div>
+          <div style="background-color: #eb4034">
+            Quidem cupiditate veritatis architecto deserunt.
+          </div>
+          <div style="background-color: #32a852">
+            Quisquam blanditiis dolorum autem voluptas.
+          </div>
+        </section>
+      </div>
+      <div id="right-column">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla rerum
+        quibusdam dolorem distinctio harum beatae libero laboriosam vitae eaque
+        sequi!
+      </div>
+    </main>
+    <footer>Footer</footer>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+CSS RESPONSIVE LAYOUTs Using
+1- Responsive layouts using CSS Float property and Media Queries @done
+2- CSS FlexBox
+3- Intro to Tailwind CSS Framework
+
+- CSS Positioning: @done
+  - Static @done
+  - Relative @done
+  - Absolute @done
+  - Fixed @done
+  - Sticky @done
+- CSS Flexbox
+  - Flex Container
+  - Flex Items
+ - Properties for the flex container
+  - Flex Direction
+  - Flex Wrap
+  - Justify Content
+  - Align Items
+  - Align Content
+ - Properties for the flex items
+  - Align Self
+  - Flex Grow
+  - Flex Shrink
+  - Flex Basis
+  - Flex Flow
+  - Flex (Shorthand)
+  - Order
+- Introduction to CSS Frameworks: Tailwind

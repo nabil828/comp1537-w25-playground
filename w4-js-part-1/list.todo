@@ -1,0 +1,128 @@
+- JS Introduction
+
+- JS Output
+  - `window.alert()`.
+  - `console.log()`
+  
+- JS Statements
+  - Program
+  - Statement
+  - Semicolons ;
+  - Whitespace
+  - Blocks
+  - Keywords
+  
+- JS Syntax @done
+  - Variables vs. Literals: @done
+  - Operators @done
+  - Comments @done
+  - Identifiers @done
+    - Case Sensitive @done
+    - camelCase @done
+    
+- JS Comments @done
+
+- JS Variables @done
+    - let, var, const
+    
+- JS Operators
+  - Arithmetic Operators @done
+  - Assignment Operators @done
+  - Comparison Operators @done
+  - String Operators @done
+  - Logical Operators @done
+  - Ternary Operator @done
+  
+- JS Arithmetic
+  - Exponentiation @done
+  - Operator Precedence @done
+  
+- JS Assignment @done
+    - `=` @done
+    - `+=` @done
+    - `-=` @done
+    - `*=` @done
+    - `/=` @done
+    - `%=` @done
+    - `**=`	 @done
+    
+- JS Data Types @done
+  - String @done
+  - Number @done
+  - Bigint @done
+  - Boolean @done
+  - Undefined @done
+  - null @done
+  - An object @done
+  - An array @done
+  - A date @done
+
+- JS Functions @done
+  - Syntax @done
+  - Invocation @done
+  - Return @done
+
+- JS Objects @done
+  - Properties @done
+  - Methods @done
+  
+- JS Strings
+  - String Length
+  - Escape Character
+  - Escape sequences
+    - \b	Backspace
+    - \f	Form Feed
+    - \n	New Line
+    - \r	Carriage Return
+    - \t	Horizontal Tabulator
+    - \v	Vertical Tabulator
+  
+- JS Random
+- JS Comparisons
+- JS If Else
+- JS Switch
+- JS Loop For
+- JS Loop While
+- JS Break and continue
+
+- JS String Methods
+  - String length
+  - String slice()
+  - String substring()
+  - String substr()
+  - String replace()
+  - String replaceAll()
+  - String toUpperCase()
+  - String toLowerCase()
+  - String concat()
+  - String trim()
+  - String trimStart()
+  - String trimEnd()
+  - String padStart()
+  - String padEnd()
+  - String charAt()
+  - String charCodeAt()
+  - String split()
+
+- JS String Templates
+
+- JS Arrays
+  - Creating an Array
+  - Accessing Array Elements
+  - Changing an Array Element
+
+- JS Array Methods
+  - Array length
+  - Array toString()
+  - Array pop()
+  - Array push()
+  - Array shift()
+  - Array unshift()
+  
+- JS Math
+  - Math Methods
+    - round
+    - ceil
+    - floor
+    - trunc
+

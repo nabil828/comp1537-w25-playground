@@ -1,0 +1,27 @@
+CSS II 
+
+Today's CSS lecture Objectives 
+- Media query
+- CSS Positioning:
+  - Static
+  - Relative
+  - Absolute
+  - Fixed
+- CSS Flexbox
+    - Flex Container
+    - Flex Items
+  - Properties for the flex container
+    - Flex Direction
+    - Flex Wrap
+    - Justify Content
+    - Align Items
+    - Align Content
+  - Properties for the flex items
+    - Align Self
+    - Flex Grow
+    - Flex Shrink
+    - Flex Basis
+    - Flex Flow
+    - Flex (Shorthand)
+    - Order
+- Introduction to CSS Frameworks: Tailwind

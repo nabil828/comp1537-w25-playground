@@ -7,23 +7,23 @@
   - mouseenter @done
   - mouseleave @done
 
-jQuery HTML
+- jQuery HTML @done
 - text() @done
 - html() @done
 - val() @done
 
-jQuery - Add Elements
-- append() 
-- prepend()
-- after()
-- before()
+- jQuery - Add Elements @done
+- append() @done
+- prepend() @done
+- after() @done
+- before() @done
 
-Remove Elements/Content
-- remove() 
-- empty()
-- hide()
-- show()
-- toggle()
+- Remove Elements/Content @done
+- remove() @done
+- empty() @done
+- hide() @done
+- show() @done
+- toggle() @done
 
 jQuery Manipulating CSS
 - addClass()

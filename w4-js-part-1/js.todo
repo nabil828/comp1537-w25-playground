@@ -1,16 +1,16 @@
-- JS Introduction
+- JS Introduction @done
 
-- JS Output
-  - `window.alert()`.
-  - `console.log()`
+- JS Output @done
+  - `window.alert()`. @done
+  - `console.log()` @done
   
-- JS Statements
-  - Program
-  - Statement
-  - Semicolons ;
-  - Whitespace
-  - Blocks
-  - Keywords
+- JS Statements @done
+  - Program @done
+  - Statement @done
+  - Semicolons ; @done
+  - Whitespace @done
+  - Blocks @done
+  - Keywords @done
   
 - JS Syntax @done
   - Variables vs. Literals: @done
@@ -23,9 +23,9 @@
 - JS Comments @done
 
 - JS Variables @done
-    - let, var, const
+    - let, var, const @done
     
-- JS Operators
+- JS Operators @done
   - Arithmetic Operators @done
   - Assignment Operators @done
   - Comparison Operators @done
@@ -33,7 +33,7 @@
   - Logical Operators @done
   - Ternary Operator @done
   
-- JS Arithmetic
+- JS Arithmetic @done
   - Exponentiation @done
   - Operator Precedence @done
   
@@ -78,6 +78,7 @@
     - \v	Vertical Tabulator
   
 - JS Random
+  - JS Booleans
 - JS Comparisons
 - JS If Else
 - JS Switch

@@ -25,10 +25,10 @@
 - show() @done
 - toggle() @done
 
-jQuery Manipulating CSS
-- addClass()
-- removeClass()
-- css()
+- jQuery Manipulating CSS @done
+- addClass() @done
+- removeClass() @done
+- css() @done
 
 jQuery Traversing
 - parent() 

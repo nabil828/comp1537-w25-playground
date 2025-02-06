@@ -1,16 +1,16 @@
 - jQuery Intro 
-- jQuery Syntax 
+- jQuery Syntax @done
 - jQuery Selectors 
 - jQuery Events
-  - click 
-  - dblclick
-  - mouseenter
-  - mouseleave
+  - click @done
+  - dblclick @done
+  - mouseenter @done
+  - mouseleave @done
 
 jQuery HTML
-- text() 
-- html() 
-- val() 
+- text() @done
+- html() @done
+- val() @done
 
 jQuery - Add Elements
 - append() 

@@ -22,6 +22,7 @@ function calculate(num1, operator, num2) {
 
 
 function setup() {
+  
   $("#op1").val(1) // write
   $("#op2").val(2) // write
   $("#resultParagraph").html("<b>THe is the result Para</b>") // write

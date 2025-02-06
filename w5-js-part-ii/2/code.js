@@ -1,13 +1,11 @@
 function main() {
+  // $("p").click(() => {
+  //   console.log(1111);
+  // })
 
-  // console.log($("#item2").html());
-  // console.log($("#item2").parent().html());
-  // console.log($("#item2").parent().children());
-  // console.log($("#item2").siblings());
-  // console.log($("#item2").next().html());
-  // console.log($("#item2").nextAll());
-  // console.log($("#item2").nextUntil("#itemx"));
-  console.log($("ul").find("#itemx"));
+  $("p").on("click", () => {
+    console.log(1111);
+  })
 }
 
 

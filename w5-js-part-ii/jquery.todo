@@ -1,7 +1,7 @@
-- jQuery Intro 
+- jQuery Intro @done
 - jQuery Syntax @done
-- jQuery Selectors 
-- jQuery Events
+- jQuery Selectors @done
+- jQuery Events @done
   - click @done
   - dblclick @done
   - mouseenter @done
@@ -30,20 +30,20 @@
 - removeClass() @done
 - css() @done
 
-jQuery Traversing
-- parent() 
-- parents()
-- parentsUntil()
-- children()
-- find()
-- siblings()
-- next()
-- nextAll()
-- nextUntil()
-- prev()
-- prevAll()
-- prevUntil()
+- jQuery Traversing @done
+- parent() @done
+- parents() @done
+- parentsUntil() @done
+- children() @done
+- find() @done
+- siblings() @done
+- next() @done
+- nextAll() @done
+- nextUntil() @done
+- prev() @done
+- prevAll() @done
+- prevUntil() @done
 
-- jQuery on() method 
+- jQuery on() method @done
 
 - jQuery Ajax

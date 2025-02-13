@@ -75,16 +75,16 @@
     - \r	Carriage Return @done
     - \t	Horizontal Tabulator @done
   
-- JS Random
-- JS Booleans
-- JS Comparisons
-- JS If Else
+- JS Random @done
+- JS Booleans @done
+- JS Comparisons @done
+- JS If Else @done
 - JS Switch
-- JS Loop For
-- JS Loop While
-- JS Break and continue
+- JS Loop For @done
+- JS Loop While @done
+- JS Break and continue @done
 
-- JS String Methods
+- JS String Methods @done
   - String slice() @done
   - String substring() @done
   - String substr() @done
@@ -118,10 +118,10 @@
   - Array shift() @done
   - Array unshift() @done
   
-- JS Math
-  - Math Methods
-    - round
-    - ceil
-    - floor
-    - trunc
+- JS Math @done
+  - Math Methods @done
+    - round @done
+    - ceil @done
+    - floor @done
+    - trunc @done
 

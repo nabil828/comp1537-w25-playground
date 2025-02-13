@@ -1,0 +1,127 @@
+- JS Introduction @done
+
+- JS Output @done
+  - `window.alert()`. @done
+  - `console.log()` @done
+  
+- JS Statements @done
+  - Program @done
+  - Statement @done
+  - Semicolons ; @done
+  - Whitespace @done
+  - Blocks @done
+  - Keywords @done
+  
+- JS Syntax @done
+  - Variables vs. Literals: @done
+  - Operators @done
+  - Comments @done
+  - Identifiers @done
+    - Case Sensitive @done
+    - camelCase @done
+    
+- JS Comments @done
+
+- JS Variables @done
+    - let, var, const @done
+    
+- JS Operators @done
+  - Arithmetic Operators @done
+  - Assignment Operators @done
+  - Comparison Operators @done
+  - String Operators @done
+  - Logical Operators @done
+  - Ternary Operator @done
+  
+- JS Arithmetic @done
+  - Exponentiation @done
+  - Operator Precedence @done
+  
+- JS Assignment @done
+    - `=` @done
+    - `+=` @done
+    - `-=` @done
+    - `*=` @done
+    - `/=` @done
+    - `%=` @done
+    - `**=`	 @done
+    
+- JS Data Types @done
+  - String @done
+  - Number @done
+  - Bigint @done
+  - Boolean @done
+  - Undefined @done
+  - null @done
+  - An object @done
+  - An array @done
+  - A date @done
+
+- JS Functions @done
+  - Syntax @done
+  - Invocation @done
+  - Return @done
+
+- JS Objects @done
+  - Properties @done
+  - Methods @done
+  
+- JS Strings @done
+  - String Length @done
+  - Escape Character @done
+  - Escape sequences @done
+    - \b	Backspace @done
+    - \n	New Line @done
+    - \r	Carriage Return @done
+    - \t	Horizontal Tabulator @done
+  
+- JS Random
+- JS Booleans
+- JS Comparisons
+- JS If Else
+- JS Switch
+- JS Loop For
+- JS Loop While
+- JS Break and continue
+
+- JS String Methods
+  - String slice() @done
+  - String substring() @done
+  - String substr() @done
+  - String replace() @done
+  - String replaceAll() @done
+  - String toUpperCase() @done
+  - String toLowerCase() @done
+  - String concat() @done
+  - String trim() @done
+  - String trimStart() @done
+  - String trimEnd() @done
+  - String padStart() @done
+  - String padEnd() @done
+  - String charAt() @done
+  - String charCodeAt() @done
+  - String split() @done
+  - String join() @done
+
+- JS String Templates @done
+
+- JS Arrays @done
+  - Creating an Array @done
+  - Accessing Array Elements @done
+  - Changing an Array Element @done
+
+- JS Array Methods @done
+  - Array length @done
+  - Array toString() @done
+  - Array pop() @done
+  - Array push() @done
+  - Array shift() @done
+  - Array unshift() @done
+  
+- JS Math
+  - Math Methods
+    - round
+    - ceil
+    - floor
+    - trunc
+

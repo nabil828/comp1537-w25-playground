@@ -1,0 +1,49 @@
+- jQuery Intro @done
+- jQuery Syntax @done
+- jQuery Selectors @done
+- jQuery Events @done
+  - click @done
+  - dblclick @done
+  - mouseenter @done
+  - mouseleave @done
+
+- jQuery HTML @done
+- text() @done
+- html() @done
+- val() @done
+
+- jQuery - Add Elements @done
+- append() @done
+- prepend() @done
+- after() @done
+- before() @done
+
+- Remove Elements/Content @done
+- remove() @done
+- empty() @done
+- hide() @done
+- show() @done
+- toggle() @done
+
+- jQuery Manipulating CSS @done
+- addClass() @done
+- removeClass() @done
+- css() @done
+
+- jQuery Traversing @done
+- parent() @done
+- parents() @done
+- parentsUntil() @done
+- children() @done
+- find() @done
+- siblings() @done
+- next() @done
+- nextAll() @done
+- nextUntil() @done
+- prev() @done
+- prevAll() @done
+- prevUntil() @done
+
+- jQuery on() method @done
+
+- jQuery Ajax

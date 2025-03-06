@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div
+      id="result"
+      class="flex flex-wrap gap-2 max-w-4xl mx-auto justify-center"
+    ></div>
+
+    <script>
+      $(document).ready(function () {
+        $.ajax({
+          url: "https://yts.mx/api/v2/list_movies.json?genre=animation&minimum_rating=8",
+          success: function (response) {
+            console.log(response);
+            for (let i = 0; i < response.data.movies.length; i++) {
+              // console.log(response.data.movies[i].title);
+              $("#result").append(`
+                  <div class="basis-1/4">
+                    <div class="relative">
+                      <img src="${response.data.movies[i].large_cover_image}">
+                      <div class="absolute top-[50%] left-[50%] text-slate-200 -translate-x-[50%] -translate-y-[50%]">
+                        ${response.data.movies[i].rating}
+                      <div>
+                    </div>
+                  </div>
+                    ${response.data.movies[i].title}
+                `);
+            }
+          },
+        });
+      });
+    </script>
+  </body>
+</html>

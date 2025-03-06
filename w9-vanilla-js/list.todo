@@ -1,0 +1,55 @@
+- VanillaJS Intro @done
+- VanillaJS Syntax @done
+- VanillaJS Elements @done
+  - `document.getElementById()` @done
+  - `document.getElementsByTagName()` @done
+  - `document.getElementsByClassName()` @done
+  - `document.querySelectorAll()` @done
+  - `document.querySelector()` @done
+  - use the html id attribute's value directly @done
+
+- VanillaJS HTML, CSS, and Forms (Modifying & Reading Content) @done
+  - `element.innerText` @done
+  - `element.innerHTML` @done
+  - `element.attribute` @done
+  - `document.forms["myForm"]["fname"].value` @done
+
+- VanillaJS Manipulating CSS @done
+  - `element.style.property` @done
+  - `element.classList.add("class-name")` @done
+  - `element.classList.remove("class-name")` @done
+  - `element.classList.toggle("class-name");` @done
+  
+- VanillaJS Events @done
+- `element.addEventListener("click", myFunction);` @done
+  - `click` @done
+  - `dblclick` @done
+  - `mouseenter` @done
+  - `mouseleave` @done
+
+- Create Elements @done
+  - `document.createElement()` @done
+
+- Add Elements @done
+  - `appendChild(Node)` @done
+  - `prepend(Node)` @done
+  - `after(Node)` @done
+  - `before(Node)` @done
+
+- Remove, Hiding, and Showing Elements/Content @done
+  - `element.remove()` @done
+  - `element.style.display = "block"` @done
+  - `element.style.display = "none"` @done
+  - x.style.visibility = "hidden" @done
+
+
+- VanillaJS Traversing @done
+  - `parentNode` @done
+  - `children[nodenumber]` @done
+  - `firstElementChild` @done
+  - `lastElementChild` @done
+  - `nextElementSibling` @done
+  - `previousElementSibling` @done
+
+- VanillaJS Ajax @done
+  - JavaScript Fetch API @done

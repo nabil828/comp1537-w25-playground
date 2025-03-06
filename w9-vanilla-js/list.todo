@@ -43,13 +43,13 @@
   - x.style.visibility = "hidden" @done
 
 
-- VanillaJS Traversing @done
-  - `parentNode` @done
-  - `children[nodenumber]` @done
-  - `firstElementChild` @done
-  - `lastElementChild` @done
-  - `nextElementSibling` @done
-  - `previousElementSibling` @done
+- VanillaJS Traversing
+  - `parentNode`
+  - `children[nodenumber]`
+  - `firstElementChild`
+  - `lastElementChild`
+  - `nextElementSibling`
+  - `previousElementSibling`
 
-- VanillaJS Ajax @done
-  - JavaScript Fetch API @done
+- VanillaJS Ajax
+  - JavaScript Fetch API

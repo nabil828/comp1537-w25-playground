@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="div1"></div>
+
+    <script>
+      x = document.createElement("p");
+      x.id = "p1";
+      x.innerText = "some text";
+      x.innerHTML = "<b> some text</b>";
+      // div1.before(x);
+      div1.appendChild(x);
+      // div1.prepend(x);
+      // div1.after(x);
+      x.addEventListener("click", () => {
+        console.log(2222);
+      });
+
+      // x.remove();
+      // x.style.visibility = "hidden";
+      // x.style.visibility = "visible";
+
+      x.style.display = "none";
+      x.style.display = "block";
+    </script>
+  </body>
+</html>

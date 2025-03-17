@@ -1,0 +1,19 @@
+{
+  "name": "w10-node.js-and-express",
+  "version": "1.0.0",
+  "description": "This repository contains documentation files for Node.js and Express.js, covering various aspects of their functionality.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "session-file-store": "^1.5.0"
+  }
+}

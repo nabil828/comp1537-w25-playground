@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    Enter a name
+    <input type="text" id="unicornNameInput" value="Aurora" />
+    <br />
+    Enter a weight
+    <input type="text" id="unicornWeightInput" value="450" />
+    <button id="submitBtn" onClick="f1()">Submit</button>
+
+    <div id="resultDiv"></div>
+
+    <script>
+      async function f1() {
+        const result = await fetch(
+          `http://localhost:3000/unicorns?name=${unicornNameInput.value}&weight=${unicornWeightInput.value}`
+        );
+        const resultJSON = await result.json();
+        console.log(resultJSON);
+        resultDiv.innerHTML = JSON.stringify(resultJSON);
+      }
+    </script>
+  </body>
+</html>

@@ -1,4 +1,54 @@
-# MongoDB & Mongoose Tutorial
+
+## Index
+
+### [I. MongoDB Introduction](#i-mongodb-introduction)  
+- [A. What is MongoDB?](#a-what-is-mongodb)
+
+### [II. Getting Started with MongoDB](#ii-getting-started-with-mongodb)  
+- [A. Installation](#a-installation)  
+- [B. Starting the MongoDB Server](#b-starting-the-mongodb-server)  
+- [C. Connecting to MongoDB](#c-connecting-to-mongodb)
+
+### [MongoDB Basics](#mongodb-basics)
+
+### [III. CRUD Operations in MongoDB](#iii-crud-operations-in-mongodb)  
+- [A. Inserting Data](#a-inserting-data)  
+- [B. Querying Data](#b-querying-data)  
+- [C. Updating Data](#c-updating-data)  
+- [D. Deleting Data](#d-deleting-data)  
+- [Miscellaneous MongoDB Commands](#miscellaneous-mongodb-commands)  
+- [Unicorns Queries, Round Two](#unicorns-queries-round-two)  
+- [Q1–Q12 Practice Queries](#unicorns-queries-round-two)
+
+### [I. Introduction to Mongoose](#i-introduction-to-mongoose)  
+- [A. What is Mongoose?](#a-what-is-mongoose)  
+- [B. Advantages of Using Mongoose](#b-advantages-of-using-mongoose)  
+- [C. How Mongoose Works with MongoDB](#c-how-mongoose-works-with-mongodb)
+
+### [II. Getting Started with Mongoose](#ii-getting-started-with-mongoose)  
+- [A. Installation](#a-installation-1)  
+- [B. Connecting to MongoDB](#b-connecting-to-mongodb)  
+- [C. Defining a Mongoose Schema](#c-defining-a-mongoose-schema)  
+- [D. Creating a Mongoose Model](#d-creating-a-mongoose-model)
+
+### [III. CRUD Operations with Mongoose](#iii-crud-operations-with-mongoose)  
+- [A. Reading Documents](#a-reading-documents)  
+- [B. Creating a New Document](#b-creating-a-new-document)  
+- [C. Updating Documents](#c-updating-documents)  
+- [D. Deleting Documents](#d-deleting-documents)
+
+### [Using MongoDB Atlas](#using-mongodbatlas)  
+- [A. Setting Up MongoDB Atlas](#a-setting-up-mongodb-atlas)  
+- [B. Connecting to MongoDB Atlas](#b-connecting-to-mongodb-atlas)  
+- [C. Using VS Code with MongoDB Atlas](#c-using-vs-code-with-mongodb-atlas)
+
+### [Outro](#outro)  
+- [RESTful API Summary](#outro)  
+- [Final Challenge](#outro)
+
+---
+
+# MongoDB & Mongoose.js Tutorial
 
 Databases play a vital role in modern web applications by storing and managing the data that drives functionality. They enable users to interact with the application and access the information they need. A persistent data store is essential for maintaining user information, application data, and other content that must be retained and manipulated over time. Unlike temporary in-memory structures such as arrays, databases offer long-term storage and reliable data retrieval.
 
@@ -413,13 +463,13 @@ Beside the `$avg` operator, there are other aggregation operators like `$sum`, `
 
 Phew! That was a lot of queries. Try to write the queries on your own to practice and understand how MongoDB queries work.
 
-## I. Introduction to Mongoose
+## I. Introduction to Mongoose.js
 
-### A. What is Mongoose?
+### A. What is Mongoose.js?
 
-Mongoose is an Object Data Modeling (ODM) library for MongoDB and Node.js that provides a more structured way to interact with MongoDB. It provides a schema-based solution to model the application data and define the data structure in a more consistent and predictable way.
+Mongoose.js is an Object Data Modeling (ODM) library for MongoDB and Node.js that provides a more structured way to interact with MongoDB. It provides a schema-based solution to model the application data and define the data structure in a more consistent and predictable way.
 
-### B. Advantages of using Mongoose
+### B. Advantages of using Mongoose.js
 
 Mongoose provides several advantages when working with MongoDB:
 
@@ -428,15 +478,15 @@ Mongoose provides several advantages when working with MongoDB:
 
 and many more...
 
-### C. How Mongoose works with MongoDB
+### C. How Mongoose.js works with MongoDB
 
-Mongoose provides an interface to interact with MongoDB using a schema-based approach. You have to define three things to work with Mongoose: a connection, a schema, and a model.
+Mongoose.js provides an interface to interact with MongoDB using a schema-based approach. You have to define three things to work with Mongoose: a connection, a schema, and a model.
 
 ## II. Getting Started with Mongoose
 
 ### A. Installation
 
-To install Mongoose in your Node.js project, you can use `npm` to install the mongoose package.
+To install Mongoose.js in your Node.js project, you can use `npm` to install the mongoose package.
 
 ```bash
 npm install mongoose
@@ -444,7 +494,7 @@ npm install mongoose
 
 ### B. Connecting to MongoDB
 
-To connect to MongoDB using Mongoose, you need to create a connection to the MongoDB server. You can use the `mongoose.connect` method to connect to the MongoDB server. Here is an example of how to connect to MongoDB using Mongoose:
+To connect to MongoDB using Mongoose.js, you need to create a connection to the MongoDB server. You can use the `mongoose.connect` method to connect to the MongoDB server. Here is an example of how to connect to MongoDB using Mongoose:
 
 ```javascript
 const mongoose = require("mongoose");
@@ -470,7 +520,7 @@ const kittySchema = new mongoose.Schema({
 
 In this example, we define a Mongoose schema for a `kittens` with a `name` field of type `String`.
 
-### D. Creating a Mongoose model
+### D. Creating a Mongoose.js model
 
 To [create a Mongoose model](https://mongoosejs.com/docs/models.html#constructing-documents), you can use the `mongoose.model` method to create a new model based on the schema you defined. The model provides an interface to interact with the data stored in MongoDB. Here is an example of how to create a Mongoose model:
 
@@ -480,7 +530,7 @@ const Kitten = mongoose.model("kittens", kittySchema);
 
 In this example, we create a Mongoose model for the `kittens` collection based on the `kittySchema` schema.
 
-## III. CRUD Operations with Mongoose
+## III. CRUD Operations with Mongoose.js
 
 ### A. Reading documents
 
@@ -540,7 +590,7 @@ Run the server by running the following command:
 nodemon server.js
 ```
 
-Now let us query the MongoDB database using Mongoose.
+Now let us query the MongoDB database using Mongoose.js.
 
 ```js
 app.get("/unicorns", async (req, res) => {
@@ -651,9 +701,9 @@ app.patch("/unicorns/:name", async (req, res) => {
 
 HTTP PATCH usually used to update a resource partially. On the other hand, HTTP PUT is used to update a resource entirely. In this case, we are using HTTP PATCH to update the unicorn's name and weight. If you want to replace the entire document, you can use HTTP PUT and mongoose's `replaceOne` method.
 
-HEre is a table summarizing HTTP methods and their mongoose methods:
+HEre is a table summarizing HTTP methods and their mongoose.js methods:
 
-| HTTP Method | Mongoose Method | Description                                                 |
+| HTTP Method | Mongoose.js Method | Description                                                 |
 | ----------- | --------------- | ----------------------------------------------------------- |
 | GET         | find            | Retrieves documents that match the query criteria.          |
 | POST        | create          | Creates a new document in the collection.                   |
@@ -661,7 +711,7 @@ HEre is a table summarizing HTTP methods and their mongoose methods:
 | DELETE      | deleteOne       | Deletes a single document that matches the query criteria.  |
 | PUT         | replaceOne      | Replaces a single document that matches the query criteria. |
 
-Check the [Queries](https://mongoosejs.com/docs/queries.html) guide in Mongoose docs.
+Check the [Queries](https://mongoosejs.com/docs/queries.html) guide in Mongoose.js docs.
 
 ### D. Deleting documents
 
@@ -769,4 +819,4 @@ HEre is a table a summary of the RESTful API endpoints we have partially built:
 
 As a challenge try to complete the API by implementing the remaining endpoints.
 
-Phew! That was a lot of information. I hope you found this tutorial helpful. MongoDB and Mongoose are powerful tools that can help you build scalable and flexible web applications. If you have any questions or feedback, feel free to reach out to me. Happy coding! 🚀
+Phew! That was a lot of information. I hope you found this tutorial helpful. MongoDB and Mongoose.js are powerful tools that can help you build scalable and flexible web applications. If you have any questions or feedback, feel free to reach out to me. Happy coding! 🚀

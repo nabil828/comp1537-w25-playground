@@ -350,7 +350,7 @@ The `$in` operator is used to find documents where the value of the field matche
 <summary>
 Matching all values in an array
 </summary>
-If you want match all values in the array, you can use the `$all` operator instead where the order of the values in the array matters. If the order does not matter, you can use the `$elemMatch` operator. Check the [Array Query Operators](https://www.mongodb.com/docs/manual/reference/operator/query-array/) MongoDB documentation for more information on these operators.
+If you want match all values in the array, you can use the `$all` operator instead where the order of the values in the array does not matter. You can use also use `$elemMatch` operator to match an element with a set of conditions where all the conditions match. Check the [Array Query Operators](https://www.mongodb.com/docs/manual/reference/operator/query-array/) MongoDB documentation for more information on these operators.
 </details>
 
 Alternatively, you can use the `$or` operator to achieve the same result:
